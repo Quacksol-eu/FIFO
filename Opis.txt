@@ -1,0 +1,5 @@
+Sprawdzamy, czy symulacja bufora FIFO działa poprawnie takt w takt. Skrypt patrzy na logi i pilnuje, czy wskaźniki zapisu i odczytu dobrze się przesuwają, czy licznik elementów się zgadza i czy flagi stanu faktycznie blokują operacje przy pełnym lub pustym buforze. Jeśli gdzieś w logu pojawia się rozbieżność względem logiki sprzętowej, od razu dostajemy informację, w którym wierszu układ się pogubił.
+
+W danym logu RD , WR oraz din są tuż sprzed posedge clk, zaś cała reszta tuż po posedge clk, pozwala to na łatwiejszą weryfikacje danego cyklu zapisu/odczytu.
+
+Projekt czysto testowy nie wykorzystujący skomplikowanego układu w design, mający na celu nauke testbenchy oraz ich weryfikacji przy nieskomplikowanych zadaniach. Do skryptu w pythonie wykorzystane ai bezpośrednio, design własny, testbench korygowany zarys pisany ręcznie, a później z wykorzystaniem ai (tutaj mającego większe problemy niż w pythonie) kolejne cykle i edge case.
