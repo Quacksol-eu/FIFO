@@ -1,4 +1,4 @@
-| Full: 0 | Empty: 0
+
 Losowy -> Wr: 1 | Rd: 1 | Din: 0xd5 | Dout: 0x51 | Wr_Ptr: 0xf (wrap:1) | Rd_Ptr: 0x0 (wrap:1) | Count: 15 | Full: 0 | Empty: 0
 Losowy -> Wr: 0 | Rd: 0 | Din: 0x1d | Dout: 0x51 | Wr_Ptr: 0xf (wrap:1) | Rd_Ptr: 0x0 (wrap:1) | Count: 15 | Full: 0 | Empty: 0
 Losowy -> Wr: 1 | Rd: 1 | Din: 0x0a | Dout: 0x52 | Wr_Ptr: 0x0 (wrap:0) | Rd_Ptr: 0x1 (wrap:1) | Count: 15 | Full: 0 | Empty: 0
